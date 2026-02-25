@@ -1,5 +1,8 @@
-[gd_scene format=3 uid="uid://piiveujexebd"]
+[gd_scene load_steps=2 format=3 uid="uid://piiveujexebd"]
+
+[ext_resource type="Script" uid="uid://doy7312gsfg5e" path="res://Learn2D/learn_2d.gd" id="1_y3sg7"]
 
 [node name="Learn2D" type="Node2D"]
+script = ExtResource("1_y3sg7")
 
 [node name="Node2D" type="Node2D" parent="."]
