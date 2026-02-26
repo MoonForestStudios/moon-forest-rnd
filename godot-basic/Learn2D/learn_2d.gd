@@ -12,7 +12,7 @@ var suma_edades = 0
 
 ''' Función que corre el proyecto'''
 func _ready():
-	print('Entrando')
+	print('\n\t Nodo Padre')
 	suma_edades = edad_felipe + edad_juan # 48
 	var resta_edades = edad_felipe - edad_juan # -2
 	var multiplicar_edades = edad_felipe * edad_juan
@@ -26,6 +26,8 @@ func _ready():
 	print("Módulo edades " + str(modulo_edades))
 
 	hola()
+	
+	print("Final nodo padre...")
 	pass
 
 func hola():
