@@ -1,6 +1,6 @@
 extends Node2D
 
-func _ready():
+func _ready() -> void:
 	var today_is_friday = false
 	var open = true
 	
@@ -25,5 +25,15 @@ func _ready():
 	print(!a)
 	print(!b)
 	
-func isGreaterThanN2(n1, n2):
+func isGreaterThanN2(n1: int, n2: int) -> bool:
 	return n1 > n2
+
+var num: int = 14
+var real: float = 3.1416
+var text: String = "A string!"
+var flag: bool = true
+
+var numTwo := 40
+var realTwo := 40.20
+var textTwo := "A other string!"
+var flagTwo := false
