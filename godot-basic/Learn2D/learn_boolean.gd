@@ -1,5 +1,9 @@
 extends Node2D
 
+@export var speed: float =  340.0
+@export_category("Category")
+@export var gravity: float =  9.81
+
 func _ready() -> void:
 	var today_is_friday = false
 	var open = true
@@ -24,6 +28,8 @@ func _ready() -> void:
 	print(a || b)
 	print(!a)
 	print(!b)
+	
+	print(speed)
 	
 func isGreaterThanN2(n1: int, n2: int) -> bool:
 	return n1 > n2

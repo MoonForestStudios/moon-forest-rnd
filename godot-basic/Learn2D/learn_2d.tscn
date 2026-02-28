@@ -14,3 +14,4 @@ script = ExtResource("2_lru4e")
 
 [node name="LearnBoolean" type="Node2D" parent="."]
 script = ExtResource("3_qewq4")
+speed = 370.0
