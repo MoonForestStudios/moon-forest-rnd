@@ -13,7 +13,7 @@ func _ready() -> void:
 	if (option == 1):
 		result = value * 100
 		print("Esto es verdadero: %.2f " % result)
-	if (option == 2):
+	elif (option == 2):
 		result = value * 50
 		print("Esta es verdadero: %.2f " % result)
 	else:
