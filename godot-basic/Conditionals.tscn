@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://mixulfg2v7yn"]
+[gd_scene load_steps=4 format=3 uid="uid://mixulfg2v7yn"]
 
 [ext_resource type="Script" uid="uid://0l2ycw5ebv88" path="res://conditionals.gd" id="1_ttgr5"]
 [ext_resource type="Script" uid="uid://nuniaeyfg7mk" path="res://operator_logic.gd" id="2_jjhku"]
+[ext_resource type="Script" uid="uid://c2f6wx2j6dm5f" path="res://match.gd" id="3_1fxui"]
 
 [node name="conditionals" type="Node2D"]
 
@@ -10,10 +11,15 @@ script = ExtResource("1_ttgr5")
 option = 1
 value = 50.0
 
-[node name="OperatorLogic" type="Node2D" parent="."]
+[node name="operatorLogic" type="Node2D" parent="."]
 script = ExtResource("2_jjhku")
 num1 = 9
 num2 = 1
 average = 12.0
 athlete = "No"
 age = 32
+
+[node name="match" type="Node2D" parent="."]
+script = ExtResource("3_1fxui")
+option = 4
+statusPlayer = "h"
