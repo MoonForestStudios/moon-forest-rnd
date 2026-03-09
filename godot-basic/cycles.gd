@@ -2,6 +2,7 @@ extends Node2D
 
 func _ready() -> void:
 	cycleWithWhile()
+	cycleWithFor()
 
 func cycleWithWhile() -> void:
 	var live: int = 100
@@ -22,6 +23,25 @@ func cycleWithWhile() -> void:
 			
 		if shifts >= 10:
 			print("Lograste 10 turnos.")
-		
+			print("\t\n Fin del juego")
+			break
+
+	print("Turnos recibidos %d " % shifts)
+	print("Pociones restantes %d " % potions)
+	
 func cycleWithFor() -> void:
-	pass
+	var email: String = "test@gmail.com"
+	const domainExtensio: String = ".com"
+	var containAtSign: bool = false
+	
+	for i in email.length():
+		if email[i] == "@":
+			containAtSign = true
+	
+	if containAtSign:
+		if domainExtensio in email:
+			print("Correo ingresado correctamente.")
+		else:
+			print("Correo invalido, falta .com")
+	else: print("Correo invalido, no se ha ingresado el @.")
+	
