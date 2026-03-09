@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://d16m34o6u5l2i"]
+
+[ext_resource type="Script" uid="uid://cakj26reaxjbd" path="res://cycles.gd" id="1_ejpck"]
+
+[node name="Cycle" type="Node2D"]
+
+[node name="Cycles" type="Node2D" parent="."]
+script = ExtResource("1_ejpck")
