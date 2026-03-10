@@ -1,10 +1,12 @@
-[gd_scene load_steps=2 format=3 uid="uid://bm7volwe30jsg"]
+[gd_scene load_steps=3 format=3 uid="uid://bm7volwe30jsg"]
 
 [ext_resource type="Script" uid="uid://njnix1s82jgm" path="res://arrays.gd" id="1_sasgi"]
+[ext_resource type="Script" uid="uid://506oa484q1x3" path="res://dictionarys.gd" id="2_d76uw"]
 
 [node name="Array" type="Node2D"]
 
 [node name="arrays" type="Node2D" parent="."]
 script = ExtResource("1_sasgi")
 
-[node name="Node2D" type="Node2D" parent="."]
+[node name="dictionarys" type="Node2D" parent="."]
+script = ExtResource("2_d76uw")
