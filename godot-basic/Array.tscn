@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://bm7volwe30jsg"]
+
+[ext_resource type="Script" uid="uid://njnix1s82jgm" path="res://arrays.gd" id="1_sasgi"]
+
+[node name="Array" type="Node2D"]
+
+[node name="arrays" type="Node2D" parent="."]
+script = ExtResource("1_sasgi")
+
+[node name="Node2D" type="Node2D" parent="."]
