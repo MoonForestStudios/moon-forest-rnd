@@ -48,4 +48,4 @@ func nestedDictionary() -> void:
 			"mana": 2
 		},
 	}
-	print(inventary["weapons"].get("primary").get("live"))
+	print(inventary["weapons"]["primary"]["live"])
