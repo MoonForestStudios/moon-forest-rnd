@@ -11,9 +11,7 @@ func _ready() -> void:
 	array_float.resize(4)
 	var array_number_float = PackedFloat32Array()
 	array_number_float.resize(5)
-	
 	var array_dinamic = ["Hola", 10, 3.4]
-
 	var ages: Array[int] = [18, 22, 43, 34, 21]
 	ages[3] = 90
 	ages.append(85)
