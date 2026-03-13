@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://piiveujexebd"]
+
+[ext_resource type="Script" uid="uid://doy7312gsfg5e" path="res://Learn2D/learn_2d.gd" id="1_y3sg7"]
+[ext_resource type="Script" uid="uid://cpe6xoxx8wwrd" path="res://Learn2D/learn_string.gd" id="2_lru4e"]
+[ext_resource type="Script" uid="uid://dtylkm5xsl5q" path="res://Learn2D/learn_boolean.gd" id="3_qewq4"]
+
+[node name="Learn2D" type="Node2D"]
+script = ExtResource("1_y3sg7")
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="LearnString" type="Node2D" parent="."]
+script = ExtResource("2_lru4e")
+
+[node name="LearnBoolean" type="Node2D" parent="."]
+script = ExtResource("3_qewq4")
+speed = 370.0
