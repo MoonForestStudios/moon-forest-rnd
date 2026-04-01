@@ -34,7 +34,6 @@ animations = [{
 radius = 40.012497
 
 [node name="Player" type="CharacterBody2D"]
-position = Vector2(234, 115)
 script = ExtResource("1_lvxji")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
