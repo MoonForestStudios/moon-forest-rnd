@@ -1,4 +1,5 @@
 extends CharacterBody2D
+class_name Player
 
 signal on_game_started
 
@@ -38,3 +39,11 @@ func jump() -> void:
 func rotatePlayer() -> void:
 	if (velocity.y  > 0 and rad_to_deg(rotation) < 90):
 		rotation += rotation_speed * deg_to_rad(1)
+
+func stop_movement() -> void:
+	should_process_input = false
+	
+func stop_gravity() -> void:
+	gravity = 0
+	velocity = Vector2.ZERO
+	
